@@ -1,0 +1,93 @@
+﻿body {
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+/*---- Grid Setup Start ----*/ 
+
+.wrapper { 
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    grid-template-rows: auto;
+    grid-template-areas:
+        "logo banner banner"
+        "nav nav nav"
+        "main main side" 
+        "footer footer footer";
+    grid-gap: 4px;
+}
+
+/*---- Grid Setup End ----*/
+
+/*---- Area Styling Start ----*/
+
+.box {
+    border: 2px solid #220000;
+    padding: 20px;
+    background-color: #FFFF88;
+    border-radius: 10px;
+}
+
+/*---- Area Specific ----*/
+.logo {
+    background-color: #553322;
+    grid-area: logo;
+    padding: 0;
+    background-image: url(/Images/logo.png);
+}
+
+.banner {
+    background-color: #EEBB55;
+    color: #220000;
+    grid-area: banner;
+}
+
+.nav {
+    background-color: #886677;
+    color: #220000;
+    grid-area: nav;
+    font-size: 35px;
+    text-align: center;
+}
+
+.side {
+    background-color: #FF8888;
+    color: #220000;
+    grid-area: side;
+}
+
+.main {
+    background-color: #FFFF88;
+    color: #220000;
+    grid-area: main;
+}
+
+.footer {
+    background-color: #886677;
+    color: #FF8888;
+    grid-area: footer;
+    text-align: right;
+}
+
+/*---- Area Styling End ----*/
+h2, h3, h4 {
+    font-family: 'Merriweather Sans', sans-serif;
+    text-decoration: underline;
+}
+
+/*---- Navigation Styling ----*/
+
+.nav a {
+    font-weight: bold;
+}
+
+.nav a:visited, .nav a:link {
+    color: #FF8888;
+}
+
+.nav a:hover {
+    color: #EEBB55;
+    text-decoration: none;
+}

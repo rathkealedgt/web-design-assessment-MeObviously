@@ -7,17 +7,17 @@ Imports System.Runtime.InteropServices
 ' associated with an assembly.
 
 ' Review the values of the assembly attributes
-<Assembly: AssemblyTitle("AS91880")>
+<Assembly: AssemblyTitle("Furniture_Website")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("AS91880")>
+<Assembly: AssemblyProduct("Furniture_Website")>
 <Assembly: AssemblyCopyright("Copyright ©  2019")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("98109762-3841-40f6-bb74-7979f5e3e8b8")>
+<Assembly: Guid("b4f1b310-4ba8-4f7a-acb1-baee0ca7a782")>
 
 ' Version information for an assembly consists of the following four values:
 '
